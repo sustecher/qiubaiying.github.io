@@ -25,7 +25,7 @@ These are introdution slides about CNN and RNN including some basic applications
 
 #### [Theano学习笔记](http://www.cnblogs.com/hanahimi/p/4127026.html)
 
-#### [机器之心：从零开始掌握Python机器学习（附资源）]（https://www.jiqizhixin.com/articles/6b42088a-3f36-4a57-b060-4a362993dea4）
+#### [从零开始掌握Python机器学习](https://www.jiqizhixin.com/articles/6b42088a-3f36-4a57-b060-4a362993dea4)
 
 
 ## MRI Related
