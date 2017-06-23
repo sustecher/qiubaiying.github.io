@@ -27,6 +27,8 @@ These are introdution slides about CNN and RNN including some basic applications
 
 #### [从零开始掌握Python机器学习](https://www.jiqizhixin.com/articles/6b42088a-3f36-4a57-b060-4a362993dea4)
 
+#### [mNeuron: A Matlab Plugin to Visualize Neurons from Deep Models](http://vision03.csail.mit.edu/cnn_art/index.html#v_single)
+
 
 ## MRI Related
 
