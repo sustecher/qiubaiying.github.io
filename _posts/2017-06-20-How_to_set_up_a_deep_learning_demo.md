@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      How to to set up a deep learning demo
 subtitle:   Learning note
@@ -33,7 +33,13 @@ The author lost `-n`
 
 #### [Get student license](https://sales.jetbrains.com/hc/zh-cn/articles/207154369--学生授权申请方式)
 
-#### [Setup](http://www.linuxdiyf.com/linux/26442.html)
+#### [Offical installation guide](https://www.jetbrains.com/help/pycharm/installation-and-launching.html)
+
+One thing shoule be noted. Setting JAVA JDK firstly.
+ 
+[Tutoial](http://www.jianshu.com/p/e9b2369154dc)
+
+#### [Third party method](http://www.linuxdiyf.com/linux/26442.html)
 
 Note
 
