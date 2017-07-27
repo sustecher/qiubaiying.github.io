@@ -8,8 +8,7 @@ header-img: img/avatar_m.jpg
 catalog: 	 true
 tags:
     - MATLAB
-    - Deep learning
-    
+    - Deep learning    
 ---
 
 # 写在前面
@@ -32,7 +31,8 @@ MatConvNet听说是个不错的工具箱，安装整整花了一天，其中有�
 ##  安装流程
 以下操作代码均在MATLAB中实现。
 
-- [x] 下载
+- 下载
+
 到 [官网](http://www.vlfeat.org/matconvnet) 下载，解压缩。
 也可以用以下代码实现
 ```matlab
@@ -41,12 +41,13 @@ untar('http://www.vlfeat.org/matconvnet/download/matconvnet-1.0-beta24.tar.gz') 
 cd matconvnet-1.0-beta24
 run matlab/vl_compilenn ;
 ```
-- [x] 安装
+- 安装
 ```matlab
 addpath matlab
 run matlab/vl_compilenn ;
 ```
 - [x] 测试
+
 ```matlab
 % Download a pre-trained CNN from the web (needed once).
 urlwrite(...
@@ -77,6 +78,7 @@ title(sprintf('%s (%d), score %.3f',...
    net.meta.classes.description{best}, best, bestScore)) ;
 ```
 
+
 ### 查错Debug
 安装这一步中，产生了非常恶心得一个错误。
 ```matlab
@@ -91,6 +93,8 @@ mex(mopts{:}) ;
 Error in vl_compilenn (line 498)
   mex_link(opts, objs, mex_dir, flags.mexlink) ;
 ```
+
+
 而关于这个错误得解释[众说纷纭](https://github.com/vlfeat/matconvnet/issues/779)
 
 总结一下，主要有以下几种。一下命令是在ubuntu 得terminal里。
@@ -99,6 +103,7 @@ Error in vl_compilenn (line 498)
 ```
 sudo apt-get install build-essential libjpeg-turbo8-dev
 ```
+
 #### gcc版本与MATLAB版本不匹配
 虽然报warning，建议gcc 4.7，但是最后我用了gcc5.4,也能跑通。
 在这里还是记录一下gcc版本切换的命令。

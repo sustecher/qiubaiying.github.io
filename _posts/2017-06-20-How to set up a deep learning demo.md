@@ -9,7 +9,6 @@ catalog: 	 true
 tags:
     - Ubuntu
     - Pycharm
-    
 ---
 
 ## How to to set up a deep learning demo - Deepmedic##
